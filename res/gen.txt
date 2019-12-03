@@ -1,0 +1,6 @@
+c io.impl.CheckerboardGenerator
+f io.impl.FranceFlagGenerator
+g io.impl.GreeceFlagGenerator
+h io.impl.HorizontalRainbowStripesGenerator
+v io.impl.VerticalRainbowStripesGenerator
+s io.impl.SwitzerlandFlagGenerator

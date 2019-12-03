@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="217.0" prefWidth="975.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ImageTest">
+  <children>
+    <ScrollPane prefHeight="400.0" prefWidth="425.0">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="401.0" prefWidth="423.0">
+          <children>
+            <ImageView fx:id="loadimage" fitHeight="400.0" fitWidth="425.0" pickOnBounds="true" preserveRatio="true" />
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <ScrollPane layoutX="608.0" prefHeight="400.0" prefWidth="376.0">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="402.0" prefWidth="372.0">
+          <children>
+            <ImageView fx:id="processimage" fitHeight="400.0" fitWidth="376.0" onMouseEntered="#testLoadProcessedImage" pickOnBounds="true" preserveRatio="true" />
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Button fx:id="load" layoutX="500.0" layoutY="21.0" mnemonicParsing="false" onMouseClicked="#testLoad" text="Load" />
+    <Button layoutX="501.0" layoutY="77.0" mnemonicParsing="false" onMouseClicked="#testSave" text="Save" />
+    <Button layoutX="425.0" layoutY="131.0" mnemonicParsing="false" onMouseClicked="#testBlur" prefHeight="25.0" prefWidth="66.0" text="Blur" />
+    <Button layoutX="541.0" layoutY="131.0" mnemonicParsing="false" onMouseClicked="#testGrayScale" text="GrayScale" />
+    <Button layoutX="425.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#testSepia" prefHeight="25.0" prefWidth="66.0" text="Sepia" />
+    <Button layoutX="548.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#testSharpen" text="Sharpen" />
+    <Button layoutX="425.0" layoutY="247.0" mnemonicParsing="false" text="Dithering" />
+    <Button layoutX="540.0" layoutY="247.0" mnemonicParsing="false" text="Mosaicing" />
+    <Button layoutX="425.0" layoutY="298.0" mnemonicParsing="false" text="Greyscale" />
+    <Button layoutX="542.0" layoutY="298.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="Button" />
+    <Button layoutX="455.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#testLoadProcessedImage" text="Load Processed Image" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+greyscale model.impl.GreyscaleTransformation
+blur model.impl.ImageBlur
+sharpen model.impl.ImageSharpen
+sepia model.impl.SepiaToneTransformation
+mosaic model.impl.ImageMosaicing
+dither model.impl.FloydSteinbergDithering
+checkerboard model.impl.CheckerboardGenerator
+france model.impl.FranceFlagGenerator
+greece model.impl.GreeceFlagGenerator
+hrainbow model.impl.HorizontalRainbowStripesGenerator
+vrainbow model.impl.VerticalRainbowStripesGenerator
+switzerland model.impl.SwitzerlandFlagGenerator
+
